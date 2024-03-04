@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body class="background">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center text-white m-3">Calculator</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Calculator Card -->
+          <div class="card align-items-center d-flex p-4 container justify-content-center mb-5  " style="width: 25rem" id="main-card">
+            <div class="card-body">
+              <div class="container">
+                <!-- Calculator Display ROW -->
+                <div class="row display-row">
+                  <div class="col">
+                    <!-- Display Card -->
+                    <div class="cal_display_color w-100 p-3 mt-auto text-end text-white fs-1  " id="cal-display">
+                      <div class="card-body"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cal ROW 01 -->
+
+                <div class="row">
+                  <div class="col">
+                    <input type="button" value="C" class="btn btn-lg border-0 " onclick="btn_c()"  id="btn-c"/>
+                  </div>
+                  <div class="col">
+                    <!-- <input type="button" value="+-" class="btn btn-lg border-0 " onclick="btn_()"/> -->
+                  </div>
+                  <div class="col">
+                    <input type="button" value="%" class="btn btn-lg border-0 " onclick="btn_present()"  id="btn-present"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="+" class="btn btn-lg border-0 " onclick="btn_increment()"  id="btn-increment"/>
+                  </div>
+                </div>
+
+                <!-- Cal ROW 02 -->
+
+                <div class="row">
+                  <div class="col">
+                    <input type="button" value="7" class="btn btn-lg border-0 " onclick="btn_7()" id="btn-7"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="8" class="btn btn-lg border-0 " onclick="btn_8()" id="btn-8"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="9" class="btn btn-lg border-0 " onclick="btn_9()" id="btn-9"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="-" class="btn btn-lg border-0 " onclick="btn_decrement()"  id="btn-decrement"/>
+                  </div>
+                </div>
+
+                <!-- Cal ROW 03 -->
+
+                <div class="row">
+                  <div class="col">
+                    <input type="button" value="4" class="btn btn-lg border-0 " onclick="btn_4()"  id="btn-4"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="5" class="btn btn-lg border-0 " onclick="btn_5()"  id="btn-5"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="6" class="btn btn-lg border-0 " onclick="btn_6()"  id="btn-6"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="x" class="btn btn-lg border-0 " onclick="btn_multi()"  id="btn-multi"/>
+                  </div>
+                </div>
+
+                <!-- Cal ROW 04 -->
+
+                <div class="row">
+                  <div class="col">
+                    <input type="button" value="1" class="btn btn-lg border-0 " onclick="btn_1()"  id="btn-1"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="2" class="btn btn-lg border-0 " onclick="btn_2()"  id="btn-2"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="3" class="btn btn-lg border-0 " onclick="btn_3()"  id="btn-3"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="/" class="btn btn-lg border-0 " onclick="btn_divide()"  id="btn-divide"/>
+                  </div>
+                </div>
+
+                <!-- Cal ROW 05 -->
+
+                <div class="row">
+                  <div class="col">
+                    <input type="button" value="." class="btn btn-lg border-0 " onclick="btn_dot()"  id="btn-dot"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="0" class="btn btn-lg border-0 " onclick="btn_0()"  id="btn-0"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="00" class="btn btn-lg border-0 " onclick="btn_00()"  id="btn-00"/>
+                  </div>
+                  <div class="col">
+                    <input type="button" value="=" class="btn btn-lg border-0 " onclick="btn_equal()"  id="btn-equal"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

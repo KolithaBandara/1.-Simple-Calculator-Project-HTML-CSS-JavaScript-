@@ -1,0 +1,20 @@
+#main-card, .display-row {
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.4px);
+  -webkit-backdrop-filter: blur(10.4px);
+  border: 1px solid rgba(255, 255, 255, 0.69);
+}
+
+.btn{
+    color:white;
+}
+
+.background{
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
